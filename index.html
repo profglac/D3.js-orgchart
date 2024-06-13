@@ -16,8 +16,7 @@
       var chart;
 
       d3.csv(
-        "./org.csv"
-        //'https://raw.githubusercontent.com/bumbeishvili/sample-data/main/org.csv'
+        'https://raw.githubusercontent.com/profglac/D3.js-orgchart/main/org.csv?token=GHSAT0AAAAAACTSZIU7B6ZHJZWKQLU7WEVCZTLM3NA'
       ).then((dataFlattened) => {
         chart = new d3.OrgChart()
           .container(".chart-container")
